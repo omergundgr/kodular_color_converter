@@ -1,5 +1,4 @@
 import 'package:clipboard/clipboard.dart';
-import 'package:color/color.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:invert_colors/invert_colors.dart';
@@ -55,7 +54,7 @@ class MyApp extends StatelessWidget {
                     child: AnimatedContainer(
                       padding: const EdgeInsets.symmetric(
                           horizontal: 50, vertical: 20),
-                      width: Get.width / 2,
+                      width: Get.width / 1.6,
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(10),
                           color: _controller.color.value.toColor(),
